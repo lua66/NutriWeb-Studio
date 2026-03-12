@@ -15,6 +15,11 @@
       "src": "favicon.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "nutriweb-preview.png",
+      "sizes": "1200x630",
+      "type": "image/png"
     }
   ]
 }
