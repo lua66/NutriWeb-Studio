@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NutriWeb Studio | Plataforma para Nutricionistas</title>
-  <meta name="description" content="Creamos páginas web profesionales para nutricionistas que quieren atraer más pacientes y gestionar consultas online.">
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="manifest" href="manifest.json">
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>NutriWeb Studio | Plataforma para Nutricionistas</title>
+
+<meta name="description" content="Creamos páginas web profesionales para nutricionistas que quieren atraer más pacientes y gestionar consultas online.">
+
+<meta name="robots" content="index, follow">
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#2f9e62">
+
+<!-- Apple PWA -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="apple-touch-icon" href="favicon.png">
+
+<!-- Open Graph (WhatsApp, redes sociales) -->
+<meta property="og:title" content="NutriWeb Studio | Páginas web para nutricionistas">
+<meta property="og:description" content="Creamos páginas web profesionales para nutricionistas que quieren atraer más pacientes y gestionar consultas online.">
+<meta property="og:image" content="https://nutri-web-studio.vercel.app/nutriweb-preview.png">
+<meta property="og:url" content="https://nutri-web-studio.vercel.app/">
+<meta property="og:type" content="website">
+
+<style>
   <style>
     :root {
       --bg: #f6fbf7;
@@ -964,7 +983,7 @@ let telefono = document.getElementById("telefono").value;
 let servicio = document.getElementById("servicio").value;
 let mensaje = document.getElementById("mensaje").value;
 
-let texto = "Nueva solicitud desde NutriAgenda:%0A%0A"
+let texto = "Nueva solicitud desde NutriWeb Studio:%0A%0A"
 + "Nombre: " + nombre + "%0A"
 + "Email: " + email + "%0A"
 + "Teléfono: " + telefono + "%0A"
